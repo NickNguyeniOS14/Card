@@ -17,8 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 // primitive types don't need strong or weak, not stored in the HEAP
 // nonatomic: default
-@property (nonatomic) BOOL chosen;
-@property (nonatomic) BOOL matched;
+@property (nonatomic, getter=isChosen) BOOL chosen;
+@property (nonatomic, getter=isMatched) BOOL matched;
 
 @end
 
