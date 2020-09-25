@@ -15,6 +15,7 @@
 		B6D8ACAA251E515C00CC7DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D8ACA8251E515C00CC7DD1 /* LaunchScreen.storyboard */; };
 		B6D8ACAD251E515C00CC7DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACAC251E515C00CC7DD1 /* main.m */; };
 		B6D8ACB6251E519A00CC7DD1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACB5251E519A00CC7DD1 /* Card.m */; };
+		B6D8ACC1251E584E00CC7DD1 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACC0251E584E00CC7DD1 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		B6D8ACAC251E515C00CC7DD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6D8ACB4251E519A00CC7DD1 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		B6D8ACB5251E519A00CC7DD1 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		B6D8ACBF251E584E00CC7DD1 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		B6D8ACC0251E584E00CC7DD1 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,21 +67,47 @@
 		B6D8AC99251E515B00CC7DD1 /* Card */ = {
 			isa = PBXGroup;
 			children = (
+				B6D8ACB8251E580D00CC7DD1 /* Resources */,
+				B6D8ACBD251E583E00CC7DD1 /* Model */,
+				B6D8ACA0251E515B00CC7DD1 /* ViewController.h */,
+				B6D8ACA1251E515B00CC7DD1 /* ViewController.m */,
+				B6D8ACBA251E581800CC7DD1 /* Storyboard */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		B6D8ACB8251E580D00CC7DD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				B6D8AC9A251E515B00CC7DD1 /* AppDelegate.h */,
 				B6D8AC9B251E515B00CC7DD1 /* AppDelegate.m */,
 				B6D8AC9D251E515B00CC7DD1 /* SceneDelegate.h */,
 				B6D8AC9E251E515B00CC7DD1 /* SceneDelegate.m */,
-				B6D8ACB4251E519A00CC7DD1 /* Card.h */,
-				B6D8ACB5251E519A00CC7DD1 /* Card.m */,
-				B6D8ACA0251E515B00CC7DD1 /* ViewController.h */,
-				B6D8ACA1251E515B00CC7DD1 /* ViewController.m */,
-				B6D8ACA3251E515B00CC7DD1 /* Main.storyboard */,
 				B6D8ACA6251E515C00CC7DD1 /* Assets.xcassets */,
-				B6D8ACA8251E515C00CC7DD1 /* LaunchScreen.storyboard */,
 				B6D8ACAB251E515C00CC7DD1 /* Info.plist */,
 				B6D8ACAC251E515C00CC7DD1 /* main.m */,
 			);
-			path = Card;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B6D8ACBA251E581800CC7DD1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8ACA3251E515B00CC7DD1 /* Main.storyboard */,
+				B6D8ACA8251E515C00CC7DD1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B6D8ACBD251E583E00CC7DD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8ACB4251E519A00CC7DD1 /* Card.h */,
+				B6D8ACB5251E519A00CC7DD1 /* Card.m */,
+				B6D8ACBF251E584E00CC7DD1 /* Deck.h */,
+				B6D8ACC0251E584E00CC7DD1 /* Deck.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +183,7 @@
 				B6D8ACA2251E515B00CC7DD1 /* ViewController.m in Sources */,
 				B6D8AC9C251E515B00CC7DD1 /* AppDelegate.m in Sources */,
 				B6D8ACAD251E515C00CC7DD1 /* main.m in Sources */,
+				B6D8ACC1251E584E00CC7DD1 /* Deck.m in Sources */,
 				B6D8AC9F251E515B00CC7DD1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4939K9623X;
-				INFOPLIST_FILE = Card/Info.plist;
+				INFOPLIST_FILE = Card/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4939K9623X;
-				INFOPLIST_FILE = Card/Info.plist;
+				INFOPLIST_FILE = Card/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

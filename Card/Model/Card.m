@@ -39,7 +39,7 @@
         }
     }
 
-    
+
 
 
     return score;
