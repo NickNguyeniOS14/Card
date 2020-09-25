@@ -17,20 +17,17 @@
 
 // NSString *: return pointer to a String
 // contents: name of the method
-- (NSString *)contents
-{
+- (NSString *)contents {
     return _contents;
 }
 // void: return nothing
 // setContents: name of the method
 // (NSString *)contents: name of argument
-- (void)setContents:(NSString *)contents
-{
+- (void)setContents:(NSString *)contents {
     _contents = contents;
 }
 
-- (int)match:(NSArray *)otherCards
-{
+- (int)match:(NSArray *)otherCards {
     int score = 0;
     // dot notation: only for property
     for (Card *card in otherCards) {
@@ -41,7 +38,5 @@
 
     return score;
 }
-
-
 
 @end

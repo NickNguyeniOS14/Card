@@ -12,8 +12,7 @@
 
 // instancetype: This is gonna return an object with the same instance as same type, same class as the object you sent this message to
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     // check the super class properly initialize
     if (self) {
@@ -27,9 +26,7 @@
         }
     }
 
-
     return self;
-    
 }
 
 @end

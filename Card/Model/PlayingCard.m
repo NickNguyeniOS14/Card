@@ -9,8 +9,7 @@
 
 @implementation PlayingCard
 
-- (NSString *)contents
-{
+- (NSString *)contents {
     NSArray *rankStrings = [PlayingCard rankStrings];
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
@@ -19,13 +18,11 @@
 
 // +: class method
 
-+ (NSArray *)validSuits
-{
++ (NSArray *)validSuits {
     return @[@"♥️",@"♦️",@"♠️",@"♣️"];
 }
 
-+ (NSArray *)rankStrings
-{
++ (NSArray *)rankStrings {
     return @[@"?",@"A",@"2",@"3",@"10",@"J",@"Q",@"K"];
 }
 
@@ -34,20 +31,17 @@
 }
 
 
-- (void)setSuit:(NSString *)suit
-{
+- (void)setSuit:(NSString *)suit {
     if ([[PlayingCard validSuits] containsObject:suit]) {
         _suit = suit;
     }
 }
 
-- (NSString *)suit
-{
+- (NSString *)suit {
     return _suit ? _suit : @"?";
 }
 
-- (void)setRank:(NSUInteger)rank
-{
+- (void)setRank:(NSUInteger)rank {
     if (rank <= [PlayingCard maxRank]) {
         _rank = rank;
     }
