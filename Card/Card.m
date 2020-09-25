@@ -29,5 +29,22 @@
     _contents = contents;
 }
 
+- (int)match:(NSArray *)otherCards
+{
+    int score = 0;
+    // dot notation: only for property
+    for (Card *card in otherCards) {
+        if ([card.contents isEqualToString:self.contents]) {
+            score = 1;
+        }
+    }
+
+    
+
+
+    return score;
+}
+
+
 
 @end
