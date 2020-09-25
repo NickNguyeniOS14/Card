@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSString *contents;
 
 // primitive types don't need strong or weak, not stored in the HEAP
+// nonatomic: default
 @property (nonatomic) BOOL chosen;
 @property (nonatomic) BOOL matched;
 
