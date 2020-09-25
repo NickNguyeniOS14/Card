@@ -17,6 +17,7 @@
 		B6D8ACB6251E519A00CC7DD1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACB5251E519A00CC7DD1 /* Card.m */; };
 		B6D8ACC1251E584E00CC7DD1 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACC0251E584E00CC7DD1 /* Deck.m */; };
 		B6D8ACC5251E5BAC00CC7DD1 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACC4251E5BAC00CC7DD1 /* PlayingCard.m */; };
+		B6D8ACC9251E5FCE00CC7DD1 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACC8251E5FCE00CC7DD1 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		B6D8ACC0251E584E00CC7DD1 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		B6D8ACC3251E5BAC00CC7DD1 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		B6D8ACC4251E5BAC00CC7DD1 /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		B6D8ACC7251E5FCE00CC7DD1 /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		B6D8ACC8251E5FCE00CC7DD1 /* PlayingCardDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				B6D8ACC0251E584E00CC7DD1 /* Deck.m */,
 				B6D8ACC3251E5BAC00CC7DD1 /* PlayingCard.h */,
 				B6D8ACC4251E5BAC00CC7DD1 /* PlayingCard.m */,
+				B6D8ACC7251E5FCE00CC7DD1 /* PlayingCardDeck.h */,
+				B6D8ACC8251E5FCE00CC7DD1 /* PlayingCardDeck.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6D8ACB6251E519A00CC7DD1 /* Card.m in Sources */,
+				B6D8ACC9251E5FCE00CC7DD1 /* PlayingCardDeck.m in Sources */,
 				B6D8ACA2251E515B00CC7DD1 /* ViewController.m in Sources */,
 				B6D8ACC5251E5BAC00CC7DD1 /* PlayingCard.m in Sources */,
 				B6D8AC9C251E515B00CC7DD1 /* AppDelegate.m in Sources */,
