@@ -7,7 +7,12 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController()
+
+// IF you hook up properties, drop it in @interface
+
+@property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
+
 
 @end
 
@@ -15,8 +20,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
 }
 
+- (IBAction)touchCardButton:(UIButton *)sender {
+    if ([sender.currentTitle length]) {
+
+        [sender setBackgroundImage:[UIImage systemImageNamed:@"heart"]
+                          forState:UIControlStateNormal];
+
+        [sender setTitle:@"" forState:UIControlStateNormal];
+    } else {
+        [sender setBackgroundImage:[UIImage systemImageNamed:@"whiteBackground"]
+                          forState:UIControlStateNormal];
+
+        [sender setTitle:@"A♥️" forState:UIControlStateNormal];
+    }
+
+}
 
 @end
