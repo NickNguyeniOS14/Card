@@ -16,6 +16,7 @@
 		B6D8ACAD251E515C00CC7DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACAC251E515C00CC7DD1 /* main.m */; };
 		B6D8ACB6251E519A00CC7DD1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACB5251E519A00CC7DD1 /* Card.m */; };
 		B6D8ACC1251E584E00CC7DD1 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACC0251E584E00CC7DD1 /* Deck.m */; };
+		B6D8ACC5251E5BAC00CC7DD1 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACC4251E5BAC00CC7DD1 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		B6D8ACB5251E519A00CC7DD1 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		B6D8ACBF251E584E00CC7DD1 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		B6D8ACC0251E584E00CC7DD1 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		B6D8ACC3251E5BAC00CC7DD1 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		B6D8ACC4251E5BAC00CC7DD1 /* PlayingCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				B6D8ACB5251E519A00CC7DD1 /* Card.m */,
 				B6D8ACBF251E584E00CC7DD1 /* Deck.h */,
 				B6D8ACC0251E584E00CC7DD1 /* Deck.m */,
+				B6D8ACC3251E5BAC00CC7DD1 /* PlayingCard.h */,
+				B6D8ACC4251E5BAC00CC7DD1 /* PlayingCard.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			files = (
 				B6D8ACB6251E519A00CC7DD1 /* Card.m in Sources */,
 				B6D8ACA2251E515B00CC7DD1 /* ViewController.m in Sources */,
+				B6D8ACC5251E5BAC00CC7DD1 /* PlayingCard.m in Sources */,
 				B6D8AC9C251E515B00CC7DD1 /* AppDelegate.m in Sources */,
 				B6D8ACAD251E515C00CC7DD1 /* main.m in Sources */,
 				B6D8ACC1251E584E00CC7DD1 /* Deck.m in Sources */,
