@@ -14,6 +14,7 @@
 		B6D8ACA7251E515C00CC7DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D8ACA6251E515C00CC7DD1 /* Assets.xcassets */; };
 		B6D8ACAA251E515C00CC7DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D8ACA8251E515C00CC7DD1 /* LaunchScreen.storyboard */; };
 		B6D8ACAD251E515C00CC7DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACAC251E515C00CC7DD1 /* main.m */; };
+		B6D8ACB6251E519A00CC7DD1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACB5251E519A00CC7DD1 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		B6D8ACA9251E515C00CC7DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6D8ACAB251E515C00CC7DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6D8ACAC251E515C00CC7DD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6D8ACB4251E519A00CC7DD1 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		B6D8ACB5251E519A00CC7DD1 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				B6D8AC9B251E515B00CC7DD1 /* AppDelegate.m */,
 				B6D8AC9D251E515B00CC7DD1 /* SceneDelegate.h */,
 				B6D8AC9E251E515B00CC7DD1 /* SceneDelegate.m */,
+				B6D8ACB4251E519A00CC7DD1 /* Card.h */,
+				B6D8ACB5251E519A00CC7DD1 /* Card.m */,
 				B6D8ACA0251E515B00CC7DD1 /* ViewController.h */,
 				B6D8ACA1251E515B00CC7DD1 /* ViewController.m */,
 				B6D8ACA3251E515B00CC7DD1 /* Main.storyboard */,
@@ -145,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D8ACB6251E519A00CC7DD1 /* Card.m in Sources */,
 				B6D8ACA2251E515B00CC7DD1 /* ViewController.m in Sources */,
 				B6D8AC9C251E515B00CC7DD1 /* AppDelegate.m in Sources */,
 				B6D8ACAD251E515C00CC7DD1 /* main.m in Sources */,
