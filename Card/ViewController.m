@@ -12,15 +12,18 @@
 // IF you hook up properties, drop it in @interface
 
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
-
+@property (nonatomic) int flipCount;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
 
+- (void)setFlipCount:(int)flipCount // setter for flipCount, keepUI in sync with model, like didSet
+{
+    _flipCount = flipCount;
+    self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d",self.flipCount];
+    NSLog(@"flipCount = %d",self.flipCount);
 }
 
 - (IBAction)touchCardButton:(UIButton *)sender {
@@ -36,6 +39,8 @@
 
         [sender setTitle:@"A♥️" forState:UIControlStateNormal];
     }
+
+    self.flipCount++; // plus 1
 
 }
 
