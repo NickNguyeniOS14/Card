@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B6D8AC9C251E515B00CC7DD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8AC9B251E515B00CC7DD1 /* AppDelegate.m */; };
 		B6D8AC9F251E515B00CC7DD1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8AC9E251E515B00CC7DD1 /* SceneDelegate.m */; };
-		B6D8ACA2251E515B00CC7DD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACA1251E515B00CC7DD1 /* ViewController.m */; };
+		B6D8ACA2251E515B00CC7DD1 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D8ACA1251E515B00CC7DD1 /* CardGameViewController.m */; };
 		B6D8ACA5251E515B00CC7DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D8ACA3251E515B00CC7DD1 /* Main.storyboard */; };
 		B6D8ACA7251E515C00CC7DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D8ACA6251E515C00CC7DD1 /* Assets.xcassets */; };
 		B6D8ACAA251E515C00CC7DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D8ACA8251E515C00CC7DD1 /* LaunchScreen.storyboard */; };
@@ -27,8 +27,8 @@
 		B6D8AC9B251E515B00CC7DD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B6D8AC9D251E515B00CC7DD1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		B6D8AC9E251E515B00CC7DD1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B6D8ACA0251E515B00CC7DD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6D8ACA1251E515B00CC7DD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6D8ACA0251E515B00CC7DD1 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		B6D8ACA1251E515B00CC7DD1 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 		B6D8ACA4251E515B00CC7DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6D8ACA6251E515C00CC7DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D8ACA9251E515C00CC7DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 		B6E4E31B251E839A0005AADB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B6D8ACA0251E515B00CC7DD1 /* ViewController.h */,
-				B6D8ACA1251E515B00CC7DD1 /* ViewController.m */,
+				B6D8ACA0251E515B00CC7DD1 /* CardGameViewController.h */,
+				B6D8ACA1251E515B00CC7DD1 /* CardGameViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			files = (
 				B6D8ACB6251E519A00CC7DD1 /* Card.m in Sources */,
 				B6D8ACC9251E5FCE00CC7DD1 /* PlayingCardDeck.m in Sources */,
-				B6D8ACA2251E515B00CC7DD1 /* ViewController.m in Sources */,
+				B6D8ACA2251E515B00CC7DD1 /* CardGameViewController.m in Sources */,
 				B6E4E31F251E87B90005AADB /* CardMatchingGame.m in Sources */,
 				B6D8ACC5251E5BAC00CC7DD1 /* PlayingCard.m in Sources */,
 				B6D8AC9C251E515B00CC7DD1 /* AppDelegate.m in Sources */,
