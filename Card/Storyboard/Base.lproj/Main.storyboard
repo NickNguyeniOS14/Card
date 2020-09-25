@@ -148,7 +148,7 @@
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <connections>
-                        <outlet property="flipsLabel" destination="gTr-RI-B1R" id="QPv-1i-PUC"/>
+                        <outlet property="scoreLabel" destination="gTr-RI-B1R" id="D8b-KT-vVI"/>
                         <outletCollection property="cardButtons" destination="K8F-Mc-3B0" id="iGR-Ef-LiM"/>
                         <outletCollection property="cardButtons" destination="5nI-uU-Ijo" id="8Ey-B1-iyP"/>
                         <outletCollection property="cardButtons" destination="NXq-mA-PzW" id="iXY-LF-ZUL"/>

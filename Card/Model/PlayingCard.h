@@ -9,7 +9,7 @@
 #import "Card.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
+// Inherit from Card
 @interface PlayingCard : Card
 
 @property (strong, nonatomic) NSString *suit;
@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSArray *)validSuits;
 + (NSUInteger)maxRank;
+
 @end
 
 NS_ASSUME_NONNULL_END
